@@ -144,8 +144,8 @@ if &t_Co > 255
 
    hi  SpecialKey         ctermfg=238        ctermbg=bg         cterm=NONE
 
-   hi  SpellBad           ctermbg=0          cterm=NONE
-   hi  SpellCap           ctermbg=0          cterm=NONE
+   hi  SpellBad           ctermfg=210        ctermbg=234        cterm=NONE
+   hi  SpellCap           ctermfg=210        ctermbg=234        cterm=NONE
    hi  SpellLocal         ctermbg=0          cterm=NONE
    hi  SpellRare          ctermbg=0          cterm=NONE
    hi  StatusLine         ctermfg=251        ctermbg=235        cterm=bold
