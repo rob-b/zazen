@@ -93,7 +93,7 @@ hi qfError          guifg=fg           guibg=#000000   gui=undercurl
 " 256-color Terminal support
 if &t_Co > 255
    hi  Normal             ctermfg=251        ctermbg=0          cterm=NONE
-   hi  CursorLine         ctermfg=NONE       ctermbg=240        cterm=NONE
+   hi  CursorLine         ctermfg=NONE       ctermbg=235        cterm=underline
    hi  CursorColumn       ctermfg=NONE       ctermbg=234        cterm=NONE
    hi  LineNr             ctermfg=240        ctermbg=NONE       cterm=NONE
    hi  Statement          ctermfg=248        ctermbg=NONE       cterm=bold
@@ -140,7 +140,7 @@ if &t_Co > 255
    hi  PmenuThumb         ctermfg=fg         ctermbg=243        cterm=NONE
 
    hi  Question           ctermfg=238        ctermbg=bg         cterm=bold
-   hi  SignColumn         ctermfg=15         ctermbg=242        cterm=NONE
+   hi  SignColumn         ctermfg=15         ctermbg=0          cterm=NONE
 
    hi  SpecialKey         ctermfg=238        ctermbg=bg         cterm=NONE
 
@@ -148,15 +148,15 @@ if &t_Co > 255
    hi  SpellCap           ctermbg=0          cterm=NONE
    hi  SpellLocal         ctermbg=0          cterm=NONE
    hi  SpellRare          ctermbg=0          cterm=NONE
-   hi  StatusLine         ctermfg=0          ctermbg=243        cterm=bold
+   hi  StatusLine         ctermfg=251        ctermbg=235        cterm=bold
    hi  StatusLineNC       ctermfg=241        ctermbg=235        cterm=NONE
-   hi  TabLine            ctermfg=fg         ctermbg=243        cterm=underline
-   hi  TabLineFill        ctermfg=fg         ctermbg=bg         cterm=reverse
-   hi  TabLineSel         ctermfg=fg         ctermbg=bg         cterm=bold
+   hi  TabLine            ctermfg=fg         ctermbg=235        cterm=NONE
+   hi  TabLineFill        ctermfg=fg         ctermbg=235         cterm=NONE
+   hi  TabLineSel         ctermfg=156        ctermbg=bg         cterm=bold
    hi  Title              ctermfg=242        ctermbg=bg         cterm=bold
-   hi  VertSplit          ctermfg=234        ctermbg=234
+   hi  VertSplit          ctermfg=0          ctermbg=234
    hi  WarningMsg         ctermfg=252        ctermbg=240        cterm=NONE
-   hi  WildMenu           ctermfg=0          ctermbg=244        cterm=NONE
+   hi  WildMenu           ctermfg=156        ctermbg=0          cterm=NONE
    hi  Boolean            ctermfg=241        ctermbg=NONE       cterm=bold
    hi  Ignore             ctermfg=bg         ctermbg=NONE       cterm=NONE
    hi  Error              ctermfg=210        ctermbg=NONE       cterm=underline
