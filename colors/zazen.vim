@@ -11,7 +11,7 @@ endif
 let colors_name = "zazen"
 
 hi Normal       guifg=#cccccc          guibg=#000000   gui=NONE
-hi CursorLine   guifg=NONE             guibg=#555555   gui=NONE
+hi CursorLine   guifg=NONE             guibg=#1a1a1a   gui=NONE
 hi CursorColumn guifg=NONE             guibg=#1a1a1a   gui=NONE
 hi LineNr       guifg=#555555          guibg=NONE      gui=NONE
 hi Statement    guifg=#a6a6a6          guibg=NONE      gui=bold
@@ -133,7 +133,7 @@ if &t_Co > 255
    hi  MatchParen         ctermfg=0          ctermbg=248        cterm=bold
    hi  ModeMsg            ctermfg=15         ctermbg=243        cterm=bold
    hi  MoreMsg            ctermfg=243        ctermbg=bg         cterm=bold
-   hi  NonText            ctermfg=244        ctermbg=bg         cterm=bold
+   hi  NonText            ctermfg=244        ctermbg=235         cterm=bold
 
    hi  Pmenu              ctermfg=242        ctermbg=237        cterm=NONE
    hi  PmenuSbar          ctermfg=fg         ctermbg=241        cterm=NONE
