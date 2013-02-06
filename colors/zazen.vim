@@ -155,6 +155,7 @@ if &t_Co > 255
    hi  TabLineSel         ctermfg=156        ctermbg=bg         cterm=bold
    hi  Title              ctermfg=242        ctermbg=bg         cterm=bold
    hi  VertSplit          ctermfg=0          ctermbg=234
+   hi  VertSplit          ctermfg=235        ctermbg=235        cterm=bold
    hi  WarningMsg         ctermfg=252        ctermbg=240        cterm=NONE
    hi  WildMenu           ctermfg=156        ctermbg=0          cterm=NONE
    hi  Boolean            ctermfg=241        ctermbg=NONE       cterm=bold
